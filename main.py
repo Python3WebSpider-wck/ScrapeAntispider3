@@ -13,5 +13,3 @@ doc = pq(html)
 names = doc('.item .name')
 for name in names.items():
     print(name.text())
-
-
